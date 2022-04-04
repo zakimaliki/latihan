@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function Todo({ todo, index, markTodo, removeTodo }) {
+function Todo({ todo, index, removeTodo }) {
   return (
     <div className="todo">
       {todo.text}
